@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+    <title>Congelados Bv</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Congelados.bv</h1>
+            </div>
+            <a href="">Inicio</a>
+            <a href="">Tienda</a>
+            <a href="">Nosotros</a>
+        </nav>
+        <img src="img/cart-shopping-solid.svg" alt="" class="img-carrito" style="height: 30px;">
+    </header>
+
+    <main>
+        <section class="slider">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><div class="vista-del-slider"></div></div>
+                    <div class="swiper-slide"><div class="vista-del-slider"></div></div>
+                    <div class="swiper-slide"><div class="vista-del-slider"></div></div>
+                    <div class="swiper-slide"><div class="vista-del-slider"></div></div>
+                    <div class="swiper-slide"><div class="vista-del-slider"></div></div>
+                    <div class="swiper-slide"><div class="vista-del-slider"></div></div>
+                    <div class="swiper-slide"><div class="vista-del-slider"></div></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+              <!-- Swiper JS -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    spaceBetween: 30,
+                    centeredSlides: true,
+                    autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                    },
+                    pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                    },
+                    navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                    },
+                });
+            </script>
+        </section>
+
+        <section class="categorias">
+            <h1>Categorias</h1>
+            <!-- 
+            ------------DISEÑO CARDS 1------------
+            <div class="categorias-container"> 
+                <div class="card card1"></div>
+                <div class="card card2"></div>
+                <div class="card card3"></div>
+            </div> -->
+
+            <div class="categorias-container-v2">
+                <a href="" class="card-v1">
+                    <img src="img/apple-whole-solid.svg" alt="Frutas" width="80px" height="80px">
+                    Frutas</a>
+                <a href="" class="card-v1">
+                    <img src="img/carrot-solid.svg" alt="Verduras" width="80px" height="80px">
+                    Verduras</a>
+                <a href="" class="card-v1">
+                    <img src="img/burger-solid.svg" alt="Alimentos" width="80px" height="80px">
+                    Alimentos</a>
+            </div>
+            
+        </section>
+
+        <section class="mas-vendido">
+            <h1>Productos más vendidos</h1>
+            <div class="productos-mas-vendidos">
+
+                <div class="productos">
+                    <div class="img"></div>
+                    <div class="informacion">
+                        <h2>Item 1</h2>
+                        <h3>$99</h3>
+                        <button type="button" class="btn-carrito"><img src="img/cart-shopping-solid.svg" class="img-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+
+                <div class="productos">
+                    <div class="img"></div>
+                    <div class="informacion">
+                        <h2>Item 1</h2>
+                        <h3>$99</h3>
+                        <button type="button" class="btn-carrito"><img src="img/cart-shopping-solid.svg" class="img-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="productos">
+                    <div class="img"></div>
+                    <div class="informacion">
+                        <h2>Item 1</h2>
+                        <h3>$99</h3>
+                        <button type="button" class="btn-carrito"><img src="img/cart-shopping-solid.svg" class="img-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="productos">
+                    <div class="img"></div>
+                    <div class="informacion">
+                        <h2>Item 1</h2>
+                        <h3>$99</h3>
+                        <button type="button" class="btn-carrito"><img src="img/cart-shopping-solid.svg" class="img-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="productos">
+                    <div class="img"></div>
+                    <div class="informacion">
+                        <h2>Item 1</h2>
+                        <h3>$99</h3>
+                        <button type="button" class="btn-carrito"><img src="img/cart-shopping-solid.svg" class="img-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="productos">
+                    <div class="img"></div>
+                    <div class="informacion">
+                        <h2>Item 1</h2>
+                        <h3>$99</h3>
+                        <button type="button" class="btn-carrito"><img src="img/cart-shopping-solid.svg" class="img-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="productos">
+                    <div class="img"></div>
+                    <div class="informacion">
+                        <h2>Item 1</h2>
+                        <h3>$99</h3>
+                        <button type="button" class="btn-carrito"><img src="img/cart-shopping-solid.svg" class="img-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+
+                <div class="productos">
+                    <div class="img"></div>
+                    <div class="informacion">
+                        <h2>Item 1</h2>
+                        <h3>$99</h3>
+                        <button type="button" class="btn-carrito"><img src="img/cart-shopping-solid.svg" class="img-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="mapa-container">
+            <div class="mapa">
+
+                <div class="conteiner-map">
+                    <div class="h1-container">
+                        <h1>PEDIDOS</h1>
+                        <h1>PEDIDOS</h1>
+                        <h1>PEDIDOS</h1>
+                        <h1>PEDIDOS</h1>
+                    </div>
+                    <div id="map"></div>
+                </div>
+                
+                <div class="ubicacion">
+                    <h4>Zonas de Reparto</h4>
+                    <div class="zonas">
+                        <h2>San Miguel</h2>
+                        <h2>Muñiz</h2>
+                        <h2>Bella vista</h2>
+                    </div>
+                    
+                    <p>Si tu área no está mencionada, contáctanos para verificar la disponibilidad de envío. Estamos continuamente expandiendo nuestras zonas de reparto para servirte mejor.</p>
+                    <div class="container-button">
+                        <a class="contacto-btn">Contacto</a>
+                    </div>
+                </div>
+
+                <script src="script-map.js"></script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="background">
+            <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="100%"
+                height="100%"
+                viewBox="0 0 1200 900"
+            >
+                <defs>
+                    <path
+                        id="wave"
+                        fill="var(--color-principal)"
+                        d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+                    s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z"
+                    />
+                </defs>
+                <g>
+                    <use xlink:href="#wave" opacity=".4">
+                        <animateTransform
+                        attributeName="transform"
+                        attributeType="XML"
+                        type="translate"
+                        dur="8s"
+                        calcMode="spline"
+                        values="270 230; -334 180; 270 230"
+                        keyTimes="0; .5; 1"
+                        keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                        repeatCount="indefinite"
+                        />
+                    </use>
+                    <use xlink:href="#wave" opacity=".6">
+                        <animateTransform
+                        attributeName="transform"
+                        attributeType="XML"
+                        type="translate"
+                        dur="6s"
+                        calcMode="spline"
+                        values="-270 230;243 220;-270 230"
+                        keyTimes="0; .6; 1"
+                        keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                        repeatCount="indefinite"
+                        />
+                    </use>
+                    <use xlink:href="#wave" opacity=".9">
+                        <animateTransform
+                        attributeName="transform"
+                        attributeType="XML"
+                        type="translate"
+                        dur="4s"
+                        calcMode="spline"
+                        values="0 230;-140 200;0 230"
+                        keyTimes="0; .4; 1"
+                        keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                        repeatCount="indefinite"
+                        />
+                    </use>
+                </g>
+            </svg>
+        </div>
+        <div class="logo-redes">
+            <a href="https://www.instagram.com/congeladosdebellavista/"><img src="img/instagram.svg" alt="Instagram" height="35px" width="35"></a>
+            <a href="---"><img src="img/facebook.svg" alt="Facebook" height="35px" width="35"></a>
+        </div>
+        <nav>
+            <a href="">Inicio</a>
+            <a href="">Tienda</a>
+            <a href="">Nosotros</a>
+            <a href="https://www.whatsapp.com/catalog/5491136438196/?app_absent=0">Contactos</a>
+        </nav>
+       
+    </footer>
+    
+</body>
+</html>
